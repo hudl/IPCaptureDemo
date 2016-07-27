@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F774E0181D4884C100F6E741 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F774E0171D4884C100F6E741 /* AppDelegate.m */; };
+		F774E01B1D4884C100F6E741 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F774E01A1D4884C100F6E741 /* main.m */; };
+		F774E01D1D4884C100F6E741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F774E01C1D4884C100F6E741 /* Assets.xcassets */; };
+		F774E0201D4884C100F6E741 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F774E01E1D4884C100F6E741 /* MainMenu.xib */; };
+		F774E02B1D4884C100F6E741 /* IPCaptureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F774E02A1D4884C100F6E741 /* IPCaptureDemoTests.m */; };
+		F774E0361D4884C100F6E741 /* IPCaptureDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F774E0351D4884C100F6E741 /* IPCaptureDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F774E0271D4884C100F6E741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F774E00B1D4884C100F6E741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F774E0121D4884C100F6E741;
+			remoteInfo = IPCaptureDemo;
+		};
+		F774E0321D4884C100F6E741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F774E00B1D4884C100F6E741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F774E0121D4884C100F6E741;
+			remoteInfo = IPCaptureDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F774E0131D4884C100F6E741 /* IPCaptureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPCaptureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F774E0161D4884C100F6E741 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F774E0171D4884C100F6E741 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F774E01A1D4884C100F6E741 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F774E01C1D4884C100F6E741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F774E01F1D4884C100F6E741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F774E0211D4884C100F6E741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F774E0261D4884C100F6E741 /* IPCaptureDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPCaptureDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F774E02A1D4884C100F6E741 /* IPCaptureDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPCaptureDemoTests.m; sourceTree = "<group>"; };
+		F774E02C1D4884C100F6E741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F774E0311D4884C100F6E741 /* IPCaptureDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPCaptureDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F774E0351D4884C100F6E741 /* IPCaptureDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPCaptureDemoUITests.m; sourceTree = "<group>"; };
+		F774E0371D4884C100F6E741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F774E0101D4884C100F6E741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F774E0231D4884C100F6E741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F774E02E1D4884C100F6E741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F774E00A1D4884C100F6E741 = {
+			isa = PBXGroup;
+			children = (
+				F774E0151D4884C100F6E741 /* IPCaptureDemo */,
+				F774E0291D4884C100F6E741 /* IPCaptureDemoTests */,
+				F774E0341D4884C100F6E741 /* IPCaptureDemoUITests */,
+				F774E0141D4884C100F6E741 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F774E0141D4884C100F6E741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F774E0131D4884C100F6E741 /* IPCaptureDemo.app */,
+				F774E0261D4884C100F6E741 /* IPCaptureDemoTests.xctest */,
+				F774E0311D4884C100F6E741 /* IPCaptureDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F774E0151D4884C100F6E741 /* IPCaptureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F774E0161D4884C100F6E741 /* AppDelegate.h */,
+				F774E0171D4884C100F6E741 /* AppDelegate.m */,
+				F774E01C1D4884C100F6E741 /* Assets.xcassets */,
+				F774E01E1D4884C100F6E741 /* MainMenu.xib */,
+				F774E0211D4884C100F6E741 /* Info.plist */,
+				F774E0191D4884C100F6E741 /* Supporting Files */,
+			);
+			path = IPCaptureDemo;
+			sourceTree = "<group>";
+		};
+		F774E0191D4884C100F6E741 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F774E01A1D4884C100F6E741 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F774E0291D4884C100F6E741 /* IPCaptureDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F774E02A1D4884C100F6E741 /* IPCaptureDemoTests.m */,
+				F774E02C1D4884C100F6E741 /* Info.plist */,
+			);
+			path = IPCaptureDemoTests;
+			sourceTree = "<group>";
+		};
+		F774E0341D4884C100F6E741 /* IPCaptureDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F774E0351D4884C100F6E741 /* IPCaptureDemoUITests.m */,
+				F774E0371D4884C100F6E741 /* Info.plist */,
+			);
+			path = IPCaptureDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F774E0121D4884C100F6E741 /* IPCaptureDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F774E03A1D4884C100F6E741 /* Build configuration list for PBXNativeTarget "IPCaptureDemo" */;
+			buildPhases = (
+				F774E00F1D4884C100F6E741 /* Sources */,
+				F774E0101D4884C100F6E741 /* Frameworks */,
+				F774E0111D4884C100F6E741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPCaptureDemo;
+			productName = IPCaptureDemo;
+			productReference = F774E0131D4884C100F6E741 /* IPCaptureDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F774E0251D4884C100F6E741 /* IPCaptureDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F774E03D1D4884C100F6E741 /* Build configuration list for PBXNativeTarget "IPCaptureDemoTests" */;
+			buildPhases = (
+				F774E0221D4884C100F6E741 /* Sources */,
+				F774E0231D4884C100F6E741 /* Frameworks */,
+				F774E0241D4884C100F6E741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F774E0281D4884C100F6E741 /* PBXTargetDependency */,
+			);
+			name = IPCaptureDemoTests;
+			productName = IPCaptureDemoTests;
+			productReference = F774E0261D4884C100F6E741 /* IPCaptureDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F774E0301D4884C100F6E741 /* IPCaptureDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F774E0401D4884C100F6E741 /* Build configuration list for PBXNativeTarget "IPCaptureDemoUITests" */;
+			buildPhases = (
+				F774E02D1D4884C100F6E741 /* Sources */,
+				F774E02E1D4884C100F6E741 /* Frameworks */,
+				F774E02F1D4884C100F6E741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F774E0331D4884C100F6E741 /* PBXTargetDependency */,
+			);
+			name = IPCaptureDemoUITests;
+			productName = IPCaptureDemoUITests;
+			productReference = F774E0311D4884C100F6E741 /* IPCaptureDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F774E00B1D4884C100F6E741 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Hudl;
+				TargetAttributes = {
+					F774E0121D4884C100F6E741 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F774E0251D4884C100F6E741 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F774E0121D4884C100F6E741;
+					};
+					F774E0301D4884C100F6E741 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F774E0121D4884C100F6E741;
+					};
+				};
+			};
+			buildConfigurationList = F774E00E1D4884C100F6E741 /* Build configuration list for PBXProject "IPCaptureDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F774E00A1D4884C100F6E741;
+			productRefGroup = F774E0141D4884C100F6E741 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F774E0121D4884C100F6E741 /* IPCaptureDemo */,
+				F774E0251D4884C100F6E741 /* IPCaptureDemoTests */,
+				F774E0301D4884C100F6E741 /* IPCaptureDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F774E0111D4884C100F6E741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F774E01D1D4884C100F6E741 /* Assets.xcassets in Resources */,
+				F774E0201D4884C100F6E741 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F774E0241D4884C100F6E741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F774E02F1D4884C100F6E741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F774E00F1D4884C100F6E741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F774E01B1D4884C100F6E741 /* main.m in Sources */,
+				F774E0181D4884C100F6E741 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F774E0221D4884C100F6E741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F774E02B1D4884C100F6E741 /* IPCaptureDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F774E02D1D4884C100F6E741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F774E0361D4884C100F6E741 /* IPCaptureDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F774E0281D4884C100F6E741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F774E0121D4884C100F6E741 /* IPCaptureDemo */;
+			targetProxy = F774E0271D4884C100F6E741 /* PBXContainerItemProxy */;
+		};
+		F774E0331D4884C100F6E741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F774E0121D4884C100F6E741 /* IPCaptureDemo */;
+			targetProxy = F774E0321D4884C100F6E741 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F774E01E1D4884C100F6E741 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F774E01F1D4884C100F6E741 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F774E0381D4884C100F6E741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F774E0391D4884C100F6E741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F774E03B1D4884C100F6E741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IPCaptureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hudl.IPCaptureDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F774E03C1D4884C100F6E741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IPCaptureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hudl.IPCaptureDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F774E03E1D4884C100F6E741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IPCaptureDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hudl.IPCaptureDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPCaptureDemo.app/Contents/MacOS/IPCaptureDemo";
+			};
+			name = Debug;
+		};
+		F774E03F1D4884C100F6E741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IPCaptureDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hudl.IPCaptureDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPCaptureDemo.app/Contents/MacOS/IPCaptureDemo";
+			};
+			name = Release;
+		};
+		F774E0411D4884C100F6E741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IPCaptureDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hudl.IPCaptureDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IPCaptureDemo;
+			};
+			name = Debug;
+		};
+		F774E0421D4884C100F6E741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IPCaptureDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hudl.IPCaptureDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IPCaptureDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F774E00E1D4884C100F6E741 /* Build configuration list for PBXProject "IPCaptureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F774E0381D4884C100F6E741 /* Debug */,
+				F774E0391D4884C100F6E741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F774E03A1D4884C100F6E741 /* Build configuration list for PBXNativeTarget "IPCaptureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F774E03B1D4884C100F6E741 /* Debug */,
+				F774E03C1D4884C100F6E741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F774E03D1D4884C100F6E741 /* Build configuration list for PBXNativeTarget "IPCaptureDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F774E03E1D4884C100F6E741 /* Debug */,
+				F774E03F1D4884C100F6E741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F774E0401D4884C100F6E741 /* Build configuration list for PBXNativeTarget "IPCaptureDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F774E0411D4884C100F6E741 /* Debug */,
+				F774E0421D4884C100F6E741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F774E00B1D4884C100F6E741 /* Project object */;
+}

@@ -7,20 +7,24 @@
 //
 
 #import "AppDelegate.h"
+#import "IPCaptureMainViewController.h"
 
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
+
 @end
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
+    self.window.contentViewController = [[IPCaptureMainViewController alloc] initWithNibName:@"IPCaptureMainViewController" bundle:nil];
 }
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+- (void)applicationWillTerminate:(NSNotification *)aNotification
+{
+    //TODO: stop HTTP server and ffmpeg server
 }
 
 @end

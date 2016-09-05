@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F75CE8A77DD732B96D9DCF0 /* libPods-IPCaptureDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC63A461F6BCBD2F1F22120E /* libPods-IPCaptureDemo.a */; };
 		F774E0181D4884C100F6E741 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F774E0171D4884C100F6E741 /* AppDelegate.m */; };
 		F774E01B1D4884C100F6E741 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F774E01A1D4884C100F6E741 /* main.m */; };
 		F774E01D1D4884C100F6E741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F774E01C1D4884C100F6E741 /* Assets.xcassets */; };
 		F774E0201D4884C100F6E741 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F774E01E1D4884C100F6E741 /* MainMenu.xib */; };
 		F774E02B1D4884C100F6E741 /* IPCaptureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F774E02A1D4884C100F6E741 /* IPCaptureDemoTests.m */; };
 		F774E0361D4884C100F6E741 /* IPCaptureDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F774E0351D4884C100F6E741 /* IPCaptureDemoUITests.m */; };
+		F774E0461D48852A00F6E741 /* IPCaptureMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F774E0441D48852A00F6E741 /* IPCaptureMainViewController.m */; };
+		F774E0471D48852A00F6E741 /* IPCaptureMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F774E0451D48852A00F6E741 /* IPCaptureMainViewController.xib */; };
+		F7A22D151D4898990022EE11 /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = F7A22D141D4898990022EE11 /* ffmpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CCB79E3832EE6D503A555EA3 /* Pods-IPCaptureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPCaptureDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IPCaptureDemo/Pods-IPCaptureDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EC63A461F6BCBD2F1F22120E /* libPods-IPCaptureDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IPCaptureDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F176D83774F34ED035F77E48 /* Pods-IPCaptureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPCaptureDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IPCaptureDemo/Pods-IPCaptureDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F774E0131D4884C100F6E741 /* IPCaptureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPCaptureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F774E0161D4884C100F6E741 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F774E0171D4884C100F6E741 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +53,10 @@
 		F774E0311D4884C100F6E741 /* IPCaptureDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPCaptureDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F774E0351D4884C100F6E741 /* IPCaptureDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPCaptureDemoUITests.m; sourceTree = "<group>"; };
 		F774E0371D4884C100F6E741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F774E0431D48852A00F6E741 /* IPCaptureMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPCaptureMainViewController.h; sourceTree = "<group>"; };
+		F774E0441D48852A00F6E741 /* IPCaptureMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPCaptureMainViewController.m; sourceTree = "<group>"; };
+		F774E0451D48852A00F6E741 /* IPCaptureMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IPCaptureMainViewController.xib; sourceTree = "<group>"; };
+		F7A22D141D4898990022EE11 /* ffmpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffmpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F75CE8A77DD732B96D9DCF0 /* libPods-IPCaptureDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,13 +85,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		760DF7D02CAE92103F87EEB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F176D83774F34ED035F77E48 /* Pods-IPCaptureDemo.debug.xcconfig */,
+				CCB79E3832EE6D503A555EA3 /* Pods-IPCaptureDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D43B75B447E4258279EE44B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC63A461F6BCBD2F1F22120E /* libPods-IPCaptureDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F774E00A1D4884C100F6E741 = {
 			isa = PBXGroup;
 			children = (
 				F774E0151D4884C100F6E741 /* IPCaptureDemo */,
 				F774E0291D4884C100F6E741 /* IPCaptureDemoTests */,
 				F774E0341D4884C100F6E741 /* IPCaptureDemoUITests */,
+				F774E0191D4884C100F6E741 /* Supporting Files */,
 				F774E0141D4884C100F6E741 /* Products */,
+				760DF7D02CAE92103F87EEB2 /* Pods */,
+				7D43B75B447E4258279EE44B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,12 +128,10 @@
 		F774E0151D4884C100F6E741 /* IPCaptureDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F774E0161D4884C100F6E741 /* AppDelegate.h */,
-				F774E0171D4884C100F6E741 /* AppDelegate.m */,
-				F774E01C1D4884C100F6E741 /* Assets.xcassets */,
-				F774E01E1D4884C100F6E741 /* MainMenu.xib */,
-				F774E0211D4884C100F6E741 /* Info.plist */,
-				F774E0191D4884C100F6E741 /* Supporting Files */,
+				F7A22D141D4898990022EE11 /* ffmpeg */,
+				F774E0431D48852A00F6E741 /* IPCaptureMainViewController.h */,
+				F774E0441D48852A00F6E741 /* IPCaptureMainViewController.m */,
+				F774E0451D48852A00F6E741 /* IPCaptureMainViewController.xib */,
 			);
 			path = IPCaptureDemo;
 			sourceTree = "<group>";
@@ -109,9 +139,15 @@
 		F774E0191D4884C100F6E741 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F774E0161D4884C100F6E741 /* AppDelegate.h */,
+				F774E0171D4884C100F6E741 /* AppDelegate.m */,
+				F774E01C1D4884C100F6E741 /* Assets.xcassets */,
+				F774E01E1D4884C100F6E741 /* MainMenu.xib */,
+				F774E0211D4884C100F6E741 /* Info.plist */,
 				F774E01A1D4884C100F6E741 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = IPCaptureDemo;
 			sourceTree = "<group>";
 		};
 		F774E0291D4884C100F6E741 /* IPCaptureDemoTests */ = {
@@ -139,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F774E03A1D4884C100F6E741 /* Build configuration list for PBXNativeTarget "IPCaptureDemo" */;
 			buildPhases = (
+				8AE964D6C50AF2256992E468 /* [CP] Check Pods Manifest.lock */,
 				F774E00F1D4884C100F6E741 /* Sources */,
 				F774E0101D4884C100F6E741 /* Frameworks */,
 				F774E0111D4884C100F6E741 /* Resources */,
+				D58C613E88B42E383D9D1BE9 /* [CP] Embed Pods Frameworks */,
+				7ACF52CEF0E1A205F35E38D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,8 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F774E0471D48852A00F6E741 /* IPCaptureMainViewController.xib in Resources */,
 				F774E01D1D4884C100F6E741 /* Assets.xcassets in Resources */,
 				F774E0201D4884C100F6E741 /* MainMenu.xib in Resources */,
+				F7A22D151D4898990022EE11 /* ffmpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +297,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7ACF52CEF0E1A205F35E38D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPCaptureDemo/Pods-IPCaptureDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE964D6C50AF2256992E468 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D58C613E88B42E383D9D1BE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPCaptureDemo/Pods-IPCaptureDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F774E00F1D4884C100F6E741 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,6 +352,7 @@
 			files = (
 				F774E01B1D4884C100F6E741 /* main.m in Sources */,
 				F774E0181D4884C100F6E741 /* AppDelegate.m in Sources */,
+				F774E0461D48852A00F6E741 /* IPCaptureMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +482,7 @@
 		};
 		F774E03B1D4884C100F6E741 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F176D83774F34ED035F77E48 /* Pods-IPCaptureDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -404,6 +495,7 @@
 		};
 		F774E03C1D4884C100F6E741 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB79E3832EE6D503A555EA3 /* Pods-IPCaptureDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -483,6 +575,7 @@
 				F774E03C1D4884C100F6E741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F774E03D1D4884C100F6E741 /* Build configuration list for PBXNativeTarget "IPCaptureDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +584,7 @@
 				F774E03F1D4884C100F6E741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F774E0401D4884C100F6E741 /* Build configuration list for PBXNativeTarget "IPCaptureDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +593,7 @@
 				F774E0421D4884C100F6E741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
